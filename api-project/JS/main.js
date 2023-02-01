@@ -1,3 +1,5 @@
+import "../css/style.css";
+
 window.addEventListener("load", () => {
   const waifu = document.querySelector(".waifu");
   const neko = document.querySelector(".neko");
@@ -38,5 +40,3 @@ window.addEventListener("load", () => {
     img.src = json.url;
   };
 });
-
-import "../css/style.css";
