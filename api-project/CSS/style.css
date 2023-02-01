@@ -1,0 +1,82 @@
+.img {
+  height: 100%;
+  width: 50%;
+  object-fit: cover;
+  object-fit: contain;
+  margin-left: 45rem;
+  margin-top: -34rem;
+}
+
+body {
+  background-color: rgb(157, 88, 130);
+}
+h1 {
+  color: rgb(210, 218, 148);
+}
+h2 {
+  margin-top: 1rem;
+  color: rgb(163, 186, 231);
+}
+button {
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  color: rgb(205, 102, 65);
+  background-color: rgb(120, 201, 167);
+  font-size: 18px;
+}
+@media (max-width: 768px) {
+  .img {
+    width: 75%;
+    margin: 2rem;
+    font-size: 3rem;
+    height: 60%;
+    margin-left: 10rem;
+    margin-top:-28rem;
+  }
+
+  button {
+    font-size: 0.8rem;
+    margin: .7rem;
+
+    width: 18%;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+  h2 {
+font-size: 1.5rem;
+  }
+ body{
+  font-size: 1rem;
+
+ }
+}
+@media (max-width: 450px) {
+  .img {
+    width: 65%;
+    margin: 1rem;
+    font-size: 2rem;
+    height: 60%;
+    margin-top:-4rem;
+    margin-left: -.5rem;
+  }
+
+  button {
+    font-size: 0.8rem;
+    margin: .4rem;
+    width: 38%;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+  h2 {
+font-size: 1.2rem;
+  }
+ body{
+  margin-left: 5rem;
+  font-size: 1rem;
+
+ }
+}
